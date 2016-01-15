@@ -60,7 +60,7 @@ public class MyApplication extends Application {
 }
 ```
 
-### Activate the Spoonware instrumentation (a gradle plugin) in your Gradle build script
+### Activate the Makitoo instrumentation (a gradle plugin) in your Gradle build script
 ```groovy
 buildscript {
     repositories {
