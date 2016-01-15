@@ -21,6 +21,8 @@ Then, edit file `app/src/main/java/com/moonpi/swiftnotes/MainActivity.java` to i
       "APPLICATION_ID",
       "TOKEN");
 
+Ensure your have the INTERNET permission in your app's AndroidManifest.xml file.
+
 ## Execution
 
 Install your application on a connected device with :
@@ -90,6 +92,8 @@ Recompile, reinstall and voila!
 `$ ./gradlew clean installDebug`
 
 Now the monitoring information goes to the monitoring server and you can access it at <https://dashboard.makitoo.com/>
+
+Ensure your have the INTERNET permission in your app's AndroidManifest.xml file: the app needs to be able to send reports to our servers.
 
 # Limitations
 
