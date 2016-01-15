@@ -461,6 +461,9 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
 
         // 'Backup notes' pressed -> show backupCheckDialog
         if (id == R.id.action_backup) {
+
+            Crash.crashNull();
+
             backupCheckDialog.show();
             return true;
         }
