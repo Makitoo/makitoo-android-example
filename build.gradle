@@ -20,7 +20,7 @@ buildscript {
     }
 
   dependencies {
-        classpath 'com.makitoo:makitoo-gradle-plugin:0.0.1'
+        classpath 'com.makitoo:makitoo-gradle-plugin:0.0.2'
   }
 }
 
