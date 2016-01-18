@@ -36,9 +36,9 @@ repositories {
     maven { url 'https://dashboard.makitoo.com/repo' }
 }
 
-apply plugin: 'spoonware'
+apply plugin: 'makitoo'
 
-spoonware {
+makitoo {
     modules = [
             'com.makitoo.handled.HandledModule',
             'com.makitoo.hotcatches.HotFixesModule',
