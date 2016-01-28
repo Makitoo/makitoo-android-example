@@ -43,7 +43,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.makitoo:makitoo-library-android:0.0.1'
+    compile 'com.makitoo:makitoo-library-android:0.0.2'
 }
 ```
 
@@ -71,7 +71,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.makitoo:makitoo-gradle-plugin:0.0.1'
+        classpath 'com.makitoo:makitoo-gradle-plugin:0.0.2'
     }
 }
 
