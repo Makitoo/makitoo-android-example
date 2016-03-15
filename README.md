@@ -2,7 +2,7 @@
 
 ## Introduction
 Makitoo is a technology for monitoring Android applications in production. It allows you to :
-- Remotely monitor your application. Each exception at runtime is automatically monitored in the Spoonware dashboard.
+- Remotely monitor your application. Each exception at runtime is automatically monitored in the Makitoo dashboard.
 - Diagnostic all your bugs with automatically collected information.
 - Fix some bugs at runtime with hot patching, without recompiling and re-deploing your application.
 
