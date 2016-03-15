@@ -1,26 +1,19 @@
 buildscript {
     repositories {
         jcenter()
+	maven { url 'https://dashboard.makitoo.com/repo' }
     }
 
     dependencies {
         classpath 'com.android.tools.build:gradle:1.5.0'
+	classpath 'com.makitoo:makitoo-gradle-plugin:0.0.5'
     }
 }
 
 allprojects {
     repositories {
         jcenter()
+	maven { url 'https://dashboard.makitoo.com/repo' }
     }
-}
-
-buildscript {
-    repositories {
-        maven { url 'https://dashboard.makitoo.com/repo' }
-    }
-
-  dependencies {
-        classpath 'com.makitoo:makitoo-gradle-plugin:0.0.2'
-  }
 }
 

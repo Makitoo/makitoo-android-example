@@ -43,7 +43,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.makitoo:makitoo-library-android:0.0.2'
+    compile 'com.makitoo:makitoo-library-android:0.0.5'
 }
 ```
 
@@ -71,7 +71,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.makitoo:makitoo-gradle-plugin:0.0.2'
+        classpath 'com.makitoo:makitoo-gradle-plugin:0.0.5'
     }
 }
 
@@ -94,7 +94,4 @@ Recompile, reinstall and voila!
 Now the monitoring information goes to the monitoring server and you can access it at <https://dashboard.makitoo.com/>
 
 Ensure your have the INTERNET permission in your app's AndroidManifest.xml file: the app needs to be able to send reports to our servers.
-
-# Limitations
-
-Makitoo plugin doesn't (yet) support Android project with multiples variants.
+5
